@@ -18,6 +18,8 @@ public interface Constants {
 
     char COMMA = ',';
 
+    String WINDOW_RN = "\r\n";
+
     String TOKEN = "me.dalianmao.utils.token";
 
     String LOCAL = Util.getLocalHost();
