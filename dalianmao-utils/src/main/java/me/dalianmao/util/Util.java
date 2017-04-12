@@ -101,6 +101,8 @@ public abstract class Util {
      *
      * @param text
      * @return
+     *
+     * @see http://blog.csdn.net/jammiwang19870815/article/details/22736457
      */
     public static String filterOffUtf8Mb4(String text) {
         try {
@@ -122,6 +124,8 @@ public abstract class Util {
                     i += 3;
                 } else if ((b ^ 0xF0) >> 4 == 0) {
                     i += 4;
+                } else {
+                    i++;
                 }
             }
             buffer.flip();
