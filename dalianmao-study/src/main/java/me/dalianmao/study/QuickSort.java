@@ -3,6 +3,8 @@ package me.dalianmao.study;
 import java.util.Arrays;
 
 /**
+ * 快速排序简单实现
+ *
  * @author xiezhenzong
  *
  */
