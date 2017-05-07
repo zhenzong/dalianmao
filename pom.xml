@@ -9,6 +9,8 @@
 
 	<modules>
 		<module>dalianmao-utils</module>
+		<module>dalianmao-wx</module>
+		<module>dalianmao-study</module>
 	</modules>
 
 	<dependencyManagement>
